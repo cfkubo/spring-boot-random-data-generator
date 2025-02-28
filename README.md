@@ -33,6 +33,39 @@ random-data-generator
 
 ## Setup Instructions
 
+### Prerequisites
+
+#### Run rabbitmq in docker
+```
+docker run -d  --rm --name rabbitmq -p 5552:5552 -p 15672:15672 -p 5672:5672  \
+    -e RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS='-rabbitmq_stream advertised_host localhost' \
+    rabbitmq:4-management
+```
+#### Enable RabbitMQ Streams Plugin
+```
+docker exec rabbitmq rabbitmq-plugins enable rabbitmq_stream 
+```
+#### sample output
+```
+rabbitmq_stream_management
+Enabling plugins on node rabbit@d212bb73a912:
+rabbitmq_stream
+rabbitmq_stream_management
+The following plugins have been configured:
+  rabbitmq_management
+  rabbitmq_management_agent
+  rabbitmq_prometheus
+  rabbitmq_stream
+  rabbitmq_stream_management
+  rabbitmq_web_dispatch
+Applying plugin configuration to rabbit@d212bb73a912...
+The following plugins have been enabled:
+  rabbitmq_stream
+  rabbitmq_stream_management
+
+started 2 plugins.
+```
+
 1. **Clone the repository:**
    ```
    git clone <repository-url>
