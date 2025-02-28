@@ -1,5 +1,3 @@
-# random-data-generator/random-data-generator/README.md
-
 # Random Data Generator for Sales Orders
 
 This project generates random data for sales orders and posts that data in JSON format to RabbitMQ streams. It includes fields such as product, price, quantity, shipTo, and payment method (cash, check, credit, debit). The application also logs the generated sales order information.
