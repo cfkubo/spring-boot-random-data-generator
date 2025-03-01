@@ -7,7 +7,6 @@ import com.rabbitmq.stream.Producer;
 import com.rabbitmq.stream.Message;
 import com.rabbitmq.stream.ConfirmationHandler;
 import com.rabbitmq.stream.ConfirmationStatus;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -16,7 +15,6 @@ public class SalesOrderService {
     private final Producer producer;
     private final LoggingService loggingService;
 
-    @Autowired
     public SalesOrderService(Producer producer, LoggingService loggingService) {
         this.producer = producer;
         this.loggingService = loggingService;
