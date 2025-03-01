@@ -1,0 +1,8 @@
+com/example/randomdatagenerator/scheduler/OrderScheduler.class
+com/example/randomdatagenerator/config/RabbitMQConfig.class
+com/example/randomdatagenerator/service/SalesOrderService.class
+com/example/randomdatagenerator/util/RandomDataGenerator.class
+com/example/randomdatagenerator/service/SalesOrderService$1.class
+com/example/randomdatagenerator/model/SalesOrder.class
+com/example/randomdatagenerator/RandomDataGeneratorApplication.class
+com/example/randomdatagenerator/logging/LoggingService.class
