@@ -10,7 +10,6 @@ public class OrderScheduler {
 
     private final SalesOrderService salesOrderService;
 
-    @Autowired
     public OrderScheduler(SalesOrderService salesOrderService) {
         this.salesOrderService = salesOrderService;
     }
