@@ -33,6 +33,10 @@ random-data-generator
 
 ### Prerequisites
 
+docker network create rmq-network
+
+docker run -d  --rm --name rabbitmq --network rmq-network  -p 5552:5552 -p 15672:15672 -p 5672:5672   -e RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS='-rabbitmq_stream advertised_host localhost' rabbitmq:4-management
+
 #### Run rabbitmq in docker
 ```
 docker run -d  --rm --name rabbitmq -p 5552:5552 -p 15672:15672 -p 5672:5672  \
@@ -83,6 +87,15 @@ started 2 plugins.
    mvn spring-boot:run
    ```
 
+5. **Build image**
+   ```
+    mvn spring-boot:build-image
+   ```
+
+6. **Run on Docker**
+   ```
+   docker run --rm -p 8080:8080 docker.io/library/random:0.0.1-SNAPSHOT
+   ```
 ## Usage
 
 The application will generate random sales orders and send them to RabbitMQ. The generated orders will include the following fields:
