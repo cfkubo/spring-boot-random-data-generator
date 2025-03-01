@@ -5,7 +5,7 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copy the built jar file from your host to your container under /app
-COPY target/random-data-generator-0.0.1-SNAPSHOT.jar .
+COPY target/random-0.0.1-SNAPSHOT.jar .
 
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
