@@ -94,16 +94,16 @@ public class SalesOrderService {
     private final Producer streamProducer;
     private final LoggingService loggingService;
 
-    @Value("${rabbitmq.host}")
+    @Value("${spring.rabbitmq.host}")
     private String rabbitmqHost;
 
-    @Value("${rabbitmq.port}")
+    @Value("${spring.rabbitmq.port}")
     private int rabbitmqPort;
 
-    @Value("${rabbitmq.username}")
+    @Value("${spring.rabbitmq.username}")
     private String rabbitmqUsername;
 
-    @Value("${rabbitmq.password}")
+    @Value("${spring.rabbitmq.password}")
     private String rabbitmqPassword;
 
     private static final String QUORUM_QUEUE_NAME = "salesOrderQuorumQueue";
