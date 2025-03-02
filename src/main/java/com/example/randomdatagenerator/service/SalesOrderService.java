@@ -155,7 +155,11 @@ public class SalesOrderService {
         try (Connection connection = factory.newConnection();
              Channel channel = connection.createChannel()) {
 
-            channel.queueDeclare(QUORUM_QUEUE_NAME, true, false, false, null);
+            // // Declare the queue as a quorum queue
+            // Map<String, Object> args = new HashMap<>();
+            // args.put("x-queue-type", "quorum");
+
+            // channel.queueDeclare(QUORUM_QUEUE_NAME, true, false, false, null);
             channel.basicPublish("", QUORUM_QUEUE_NAME, MessageProperties.PERSISTENT_TEXT_PLAIN, order.toString().getBytes());
 
         } catch (IOException | TimeoutException e) {
