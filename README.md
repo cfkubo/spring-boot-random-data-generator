@@ -1,6 +1,6 @@
 # Random Data Generator for Sales Orders
 
-This project generates random data for sales orders and posts that data in JSON format to RabbitMQ streams. It includes fields such as product, price, quantity, shipTo, and payment method (cash, check, credit, debit). The application also logs the generated sales order information.
+This project generates random data for sales orders and posts that data in JSON format to RabbitMQ streams, quorum and classic queues. It includes fields such as product, price, quantity, shipTo, and payment method (cash, check, credit, debit). The application also logs the generated sales order information.
 
 ## Project Structure
 
@@ -113,6 +113,8 @@ This project uses the following dependencies:
 - Spring Boot
 - RabbitMQ
 - Logging frameworks
+
+![RabbitMQ Screenshot](static/rabbitmq.png)
 
 ## License
 
