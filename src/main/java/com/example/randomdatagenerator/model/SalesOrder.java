@@ -129,7 +129,7 @@ public class SalesOrder {
 
     @Override
     public String toString() {
-        return "SalesOrder{" +
+        return "{" +
                 "product='" + product + '\'' +
                 ", price=" + price +
                 ", quantity=" + quantity +
