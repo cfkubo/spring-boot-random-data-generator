@@ -1,5 +1,6 @@
 package com.example.randomdatagenerator.util;
 
+import java.sql.Date;
 import java.util.Random;
 
 public class RandomDataGenerator {
@@ -16,6 +17,9 @@ public class RandomDataGenerator {
         "111 chase street, Vegas, USA"
     };
     private static final Random RANDOM = new Random();
+    private static final String[] storeNames = {"Store A", "Store B", "Store C"};
+    private static final String[] storeAddresses = {"101 Store St", "202 Shop St", "303 Bazaar St"};
+    private static final String[] salesRepNames = {"John Doe", "Jane Smith", "Alice Johnson"};
 
     public static String generateRandomProduct() {
         return PRODUCTS[RANDOM.nextInt(PRODUCTS.length)];
@@ -41,4 +45,21 @@ public class RandomDataGenerator {
         int index = RANDOM.nextInt(SHIPPING_ADDRESSES.length);
         return SHIPPING_ADDRESSES[index];
     }
+
+    public static Date generateRandomOrderDate() {
+        return new Date(0); // Generates current date for simplicity, can be modified for other logic
+    }
+
+    public static String generateRandomStoreName() {
+        return storeNames[new Random().nextInt(storeNames.length)];
+    }
+
+    public static String generateRandomStoreAddress() {
+        return storeAddresses[new Random().nextInt(storeAddresses.length)];
+    }
+
+    public static String generateRandomSalesRepName() {
+        return salesRepNames[new Random().nextInt(salesRepNames.length)];
+    }
+
 }

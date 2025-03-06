@@ -1,0 +1,1006 @@
+2025-03-06T06:22:34.959-07:00  INFO 7021 --- [main] c.e.r.RandomDataGeneratorApplication     : Starting RandomDataGeneratorApplication using Java 23.0.2 with PID 7021 (/Users/projectsuno/workpace/spring-boot-random-data-generator/target/classes started by projectsuno in /Users/projectsuno/workpace/spring-boot-random-data-generator)
+2025-03-06T06:22:34.962-07:00  INFO 7021 --- [main] c.e.r.RandomDataGeneratorApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-06T06:22:35.373-07:00  INFO 7021 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-06T06:22:35.379-07:00  INFO 7021 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06T06:22:35.379-07:00  INFO 7021 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-06T06:22:35.412-07:00  INFO 7021 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06T06:22:35.413-07:00  INFO 7021 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 432 ms
+2025-03-06T06:22:35.503-07:00  INFO 7021 --- [main] c.r.stream.impl.StreamEnvironment        : Connecting to localhost with guest user, assuming development environment
+2025-03-06T06:22:35.504-07:00  INFO 7021 --- [main] c.r.stream.impl.StreamEnvironment        : Using address resolver to always connect to localhost
+2025-03-06T06:22:35.898-07:00  INFO 7021 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-03-06T06:22:35.918-07:00  INFO 7021 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-06T06:22:35.919-07:00  INFO 7021 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-03-06T06:22:35.951-07:00  INFO 7021 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#74a820bf:0/SimpleConnection@531a716c [delegate=amqp://guest@127.0.0.1:5672/, localPort=49587]
+2025-03-06T06:22:35.987-07:00  INFO 7021 --- [main] c.e.r.RandomDataGeneratorApplication     : Started RandomDataGeneratorApplication in 1.184 seconds (process running for 1.309)
+2025-03-06T06:22:40.929-07:00  INFO 7021 --- [messageListenerContainer-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-03-06T06:22:41.109-07:00  INFO 7021 --- [messageListenerContainer-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-03-06T06:22:41.110-07:00  INFO 7021 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-06T06:22:41.114-07:00  INFO 7021 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-06T06:23:20.675-07:00  INFO 7371 --- [main] c.e.r.RandomDataGeneratorApplication     : Starting RandomDataGeneratorApplication using Java 23.0.2 with PID 7371 (/Users/projectsuno/workpace/spring-boot-random-data-generator/target/classes started by projectsuno in /Users/projectsuno/workpace/spring-boot-random-data-generator)
+2025-03-06T06:23:20.676-07:00  INFO 7371 --- [main] c.e.r.RandomDataGeneratorApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-06T06:23:21.073-07:00  INFO 7371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-06T06:23:21.079-07:00  INFO 7371 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06T06:23:21.079-07:00  INFO 7371 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-06T06:23:21.099-07:00  INFO 7371 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06T06:23:21.099-07:00  INFO 7371 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 404 ms
+2025-03-06T06:23:21.195-07:00  INFO 7371 --- [main] c.r.stream.impl.StreamEnvironment        : Connecting to localhost with guest user, assuming development environment
+2025-03-06T06:23:21.195-07:00  INFO 7371 --- [main] c.r.stream.impl.StreamEnvironment        : Using address resolver to always connect to localhost
+2025-03-06T06:23:21.538-07:00  INFO 7371 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-03-06T06:23:21.559-07:00  INFO 7371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-06T06:23:21.560-07:00  INFO 7371 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-03-06T06:23:21.579-07:00  INFO 7371 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#64279ab:0/SimpleConnection@ff1f465 [delegate=amqp://guest@127.0.0.1:5672/, localPort=49758]
+2025-03-06T06:23:21.611-07:00  INFO 7371 --- [main] c.e.r.RandomDataGeneratorApplication     : Started RandomDataGeneratorApplication in 1.101 seconds (process running for 1.226)
+2025-03-06T06:23:23.994-07:00  INFO 7371 --- [messageListenerContainer-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-03-06T06:23:24.794-07:00  INFO 7371 --- [messageListenerContainer-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-03-06T06:23:24.795-07:00  INFO 7371 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-06T06:23:24.798-07:00  INFO 7371 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-06T06:36:04.605-07:00  INFO 12434 --- [main] c.e.r.RandomDataGeneratorApplication     : Starting RandomDataGeneratorApplication using Java 23.0.2 with PID 12434 (/Users/projectsuno/workpace/spring-boot-random-data-generator/target/classes started by projectsuno in /Users/projectsuno/workpace/spring-boot-random-data-generator)
+2025-03-06T06:36:04.606-07:00  INFO 12434 --- [main] c.e.r.RandomDataGeneratorApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-06T06:36:05.039-07:00  INFO 12434 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-06T06:36:05.046-07:00  INFO 12434 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06T06:36:05.046-07:00  INFO 12434 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-06T06:36:05.067-07:00  INFO 12434 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06T06:36:05.067-07:00  INFO 12434 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 440 ms
+2025-03-06T06:36:05.170-07:00  INFO 12434 --- [main] c.r.stream.impl.StreamEnvironment        : Connecting to localhost with guest user, assuming development environment
+2025-03-06T06:36:05.170-07:00  INFO 12434 --- [main] c.r.stream.impl.StreamEnvironment        : Using address resolver to always connect to localhost
+2025-03-06T06:36:05.976-07:00  INFO 12434 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-03-06T06:36:05.997-07:00  INFO 12434 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-06T06:36:05.998-07:00  INFO 12434 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-03-06T06:36:06.016-07:00  INFO 12434 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#4fb64a52:0/SimpleConnection@45c90a05 [delegate=amqp://guest@127.0.0.1:5672/, localPort=50267]
+2025-03-06T06:36:06.061-07:00  INFO 12434 --- [main] c.e.r.RandomDataGeneratorApplication     : Started RandomDataGeneratorApplication in 1.627 seconds (process running for 1.761)
+2025-03-06T06:36:06.138-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:06.244-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:07.081-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:07.183-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:08.113-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:08.220-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:09.149-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:09.254-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:10.086-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:10.190-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:11.115-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:11.221-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:12.143-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:12.246-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:13.075-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:13.177-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:14.103-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:14.206-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:15.136-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:15.242-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:16.074-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:16.178-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:17.107-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:17.209-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:18.151-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:18.257-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:19.091-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:19.192-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:20.125-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:20.226-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:21.169-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:22.095-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:22.095-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:22.195-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:23.129-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:23.232-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:24.159-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:24.265-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:25.083-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:25.189-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:26.111-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:26.216-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:27.148-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:27.249-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:28.081-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:28.186-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:29.120-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:29.225-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:30.142-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:30.244-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:31.170-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:31.276-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:32.102-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:32.205-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:33.133-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:33.237-07:00  WARN 12434 --- [rabbitmq-stream-producer-connection-0] c.r.stream.impl.ServerFrameHandler       : Error while handling response from server
+
+java.lang.UnsupportedOperationException: Unimplemented method 'logOrderDetails'
+	at com.example.randomdatagenerator.logging.LoggingService.logOrderDetails(LoggingService.java:17) ~[classes/:na]
+	at com.example.randomdatagenerator.service.SalesOrderService$1.handle(SalesOrderService.java:224) ~[classes/:na]
+	at com.rabbitmq.stream.impl.SimpleMessageAccumulator$SimpleConfirmationCallback.handle(SimpleMessageAccumulator.java:174) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.StreamProducer.confirm(StreamProducer.java:322) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ProducersCoordinator$ClientProducersManager.lambda$new$0(ProducersCoordinator.java:593) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$ConfirmFrameHandler.doHandle(ServerFrameHandler.java:269) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.ServerFrameHandler$BaseFrameHandler.handle(ServerFrameHandler.java:242) ~[stream-client-0.18.0.jar:0.18.0]
+	at com.rabbitmq.stream.impl.Client$FrameHandlerTask.run(Client.java:2887) ~[stream-client-0.18.0.jar:0.18.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-06T06:36:33.341-07:00  INFO 12434 --- [messageListenerContainer-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-03-06T06:36:34.240-07:00  INFO 12434 --- [messageListenerContainer-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-03-06T06:36:34.241-07:00  INFO 12434 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-06T06:36:34.245-07:00  INFO 12434 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
