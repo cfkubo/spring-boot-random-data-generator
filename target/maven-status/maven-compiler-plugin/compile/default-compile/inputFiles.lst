@@ -1,8 +1,0 @@
-/Users/projectsuno/workpace/spring-boot-random-data-generator/src/main/java/com/example/randomdatagenerator/RandomDataGeneratorApplication.java
-/Users/projectsuno/workpace/spring-boot-random-data-generator/src/main/java/com/example/randomdatagenerator/config/ClassicQueueConfig.java
-/Users/projectsuno/workpace/spring-boot-random-data-generator/src/main/java/com/example/randomdatagenerator/config/QuorumQueueConfig.java
-/Users/projectsuno/workpace/spring-boot-random-data-generator/src/main/java/com/example/randomdatagenerator/config/RabbitMQConfig.java
-/Users/projectsuno/workpace/spring-boot-random-data-generator/src/main/java/com/example/randomdatagenerator/model/SalesOrder.java
-/Users/projectsuno/workpace/spring-boot-random-data-generator/src/main/java/com/example/randomdatagenerator/scheduler/OrderScheduler.java
-/Users/projectsuno/workpace/spring-boot-random-data-generator/src/main/java/com/example/randomdatagenerator/service/SalesOrderService.java
-/Users/projectsuno/workpace/spring-boot-random-data-generator/src/main/java/com/example/randomdatagenerator/util/RandomDataGenerator.java
