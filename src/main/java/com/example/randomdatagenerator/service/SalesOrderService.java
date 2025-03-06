@@ -148,7 +148,6 @@ package com.example.randomdatagenerator.service;
 
 import com.example.randomdatagenerator.model.SalesOrder;
 import com.example.randomdatagenerator.util.RandomDataGenerator;
-import com.example.randomdatagenerator.logging.LoggingService;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
