@@ -6,11 +6,11 @@ import java.util.Random;
 public class RandomDataGenerator {
 
     private static final String[] PRODUCTS = {"Laptop", "Smartphone", "Tablet", "Headphones", "Smartwatch","GOLD" ,"Gold Ring", "Diamond Necklace", "Leather Wallet", "Sunglasses", "Running Shoes", "Backpack", "T-shirt", "Jeans", "Dress", "Jacket", "Sweater", "Scarf", "Gloves", "Umbrella", "Socks","silver ring", "diamonds", "leather wallet", "sunglasses", "running shoes", "backpack", "t-shirt", "jeans", "dress", "jacket", "sweater", "scarf", "gloves", "umbrella", "socks"};
-    private static final String[] PAYMENT_METHODS = {"cash", "check", "credit", "debit"};
+    private static final String[] PAYMENT_METHODS = {"cash", "check", "credit", "debit","bitcoin","paypal","google pay","apple pay","amazon pay"};
     private static final String[] SHIPPING_ADDRESSES = {
-        "123 Main St, Anytown, USA",
-        "456 Elm St, Othertown, USA",
-        "789 Oak St, Sometown, USA",
+        "123 Main St, Anytown, USA, 85281",
+        "456 Elm St, Othertown, USA, 45678",
+        "789 Oak St, Sometown, USA, 12345",
         "123 Main St, Anytown, USA",
         "456 Elm St, Othertown, USA",
         "789 Oak St, Sometown, USA",
