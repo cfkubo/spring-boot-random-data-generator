@@ -1,0 +1,140 @@
+
+-- Table: public.salesorders
+
+-- DROP TABLE IF EXISTS public.salesorders;
+
+CREATE TABLE IF NOT EXISTS public.salesorders
+(
+    order_id integer NOT NULL DEFAULT nextval('salesorders_order_id_seq'::regclass),
+    payload character varying(1000) COLLATE pg_catalog."default",
+    CONSTRAINT salesorders_pkey PRIMARY KEY (order_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.salesorders
+    OWNER to postgres;
+
+-- Trigger: sales_order_update_trigger
+
+-- DROP TRIGGER IF EXISTS sales_order_update_trigger ON public.salesorders;
+
+CREATE OR REPLACE TRIGGER sales_order_update_trigger
+    AFTER INSERT OR UPDATE 
+    ON public.salesorders
+    FOR EACH ROW
+    EXECUTE FUNCTION public.sales_order_trigger_func();
+
+-- Table: public.salesorders_read
+
+-- DROP TABLE IF EXISTS public.salesorders_read;
+
+CREATE TABLE IF NOT EXISTS public.salesorders_read
+(
+    order_id integer NOT NULL DEFAULT nextval('salesorders_read_order_id_seq'::regclass),
+    product character varying(255) COLLATE pg_catalog."default",
+    price numeric(10,2),
+    quantity integer,
+    ship_to character varying(50) COLLATE pg_catalog."default",
+    payment_method character varying(50) COLLATE pg_catalog."default",
+    order_date date,
+    address character varying(50) COLLATE pg_catalog."default",
+    store_name character varying(50) COLLATE pg_catalog."default",
+    store_address character varying(50) COLLATE pg_catalog."default",
+    sales_rep_name character varying(50) COLLATE pg_catalog."default",
+    CONSTRAINT salesorders_read_pkey PRIMARY KEY (order_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.salesorders_read
+    OWNER to postgres;
+	
+CREATE OR REPLACE PROCEDURE public.process_sales_order(order_id INT, payload TEXT)
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    product VARCHAR(255);
+    price NUMERIC(10, 2);
+    quantity INT;
+    ship_to VARCHAR(50);
+    payment_method VARCHAR(50);
+    order_date DATE;
+    address VARCHAR(50);
+    store_name VARCHAR(50);
+    store_address VARCHAR(50);
+    sales_rep_name VARCHAR(50);
+BEGIN
+    -- Extract values using regular expressions
+    product := REGEXP_REPLACE(payload, '.*product=''([^'']*)''.*', '\1');
+    price := REGEXP_REPLACE(payload, '.*price=([\d\.]+).*', '\1')::NUMERIC(10, 2);
+    quantity := REGEXP_REPLACE(payload, '.*quantity=(\d+).*', '\1')::INT;
+    ship_to := REGEXP_REPLACE(payload, '.*shipTo=''([^'']*)''.*', '\1');
+    payment_method := REGEXP_REPLACE(payload, '.*paymentMethod=''([^'']*)''.*', '\1');
+    order_date := REGEXP_REPLACE(payload, '.*orderDate=([\d\-]+).*', '\1')::DATE;
+    address := REGEXP_REPLACE(payload, '.*address=''([^'']*)''.*', '\1');
+    store_name := REGEXP_REPLACE(payload, '.*storeName=''([^'']*)''.*', '\1');
+    store_address := REGEXP_REPLACE(payload, '.*storeAddress=''([^'']*)''.*', '\1');
+    sales_rep_name := REGEXP_REPLACE(payload, '.*salesRepName=''([^'']*)''.*', '\1');
+
+    -- Insert or update the salesorders_read table
+    INSERT INTO public.salesorders_read (
+        order_id, product, price, quantity, ship_to, payment_method,
+        order_date, address, store_name, store_address, sales_rep_name
+    ) VALUES (
+        order_id, product, price, quantity, ship_to, payment_method,
+        order_date, address, store_name, store_address, sales_rep_name
+    )
+    ON CONFLICT ((salesorders_read.order_id)) DO UPDATE SET -- Corrected ON CONFLICT syntax
+        product = EXCLUDED.product,
+        price = EXCLUDED.price,
+        quantity = EXCLUDED.quantity,
+        ship_to = EXCLUDED.ship_to,
+        payment_method = EXCLUDED.payment_method,
+        order_date = EXCLUDED.order_date,
+        address = EXCLUDED.address,
+        store_name = EXCLUDED.store_name,
+        store_address = EXCLUDED.store_address,
+        sales_rep_name = EXCLUDED.sales_rep_name;
+
+EXCEPTION
+    WHEN others THEN
+        RAISE NOTICE 'Error processing order %: %', order_id, SQLERRM;
+END;
+$$;
+
+CREATE OR REPLACE FUNCTION public.sales_order_trigger_func()
+RETURNS TRIGGER
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    -- Call the stored procedure to process the order data
+    CALL public.process_sales_order(NEW.order_id, NEW.payload);
+    RETURN NEW;
+END;
+$$;
+
+
+CREATE OR REPLACE TRIGGER sales_order_update_trigger
+AFTER INSERT OR UPDATE ON public.salesorders
+FOR EACH ROW
+EXECUTE FUNCTION public.sales_order_trigger_func();
+
+
+delete from salesorders_read;
+call  public.sales_order_trigger_func();
+
+UPDATE public.salesorders
+SET payload = '{product=''Gold Watch'', price=800.00, quantity=1, shipTo=''Address 16'', paymentMethod=''paypal'', orderDate=2025-04-01, address=''789 Elm Rd, Somewhere, USA, 54321'', storeName=''Luxury Timepieces'', storeAddress=''101 Maple Ln, Somewhere, USA, 98765'', salesRepName=''Jane Smith''}'
+WHERE order_id = 1335;
+
+
+INSERT INTO public.salesorders (payload)
+VALUES (
+    '{product=''Silver Necklace'', price=250.50, quantity=5, shipTo=''Address 15'', paymentMethod=''credit'', orderDate=2025-03-10, address=''123 Oak Street, Anytown, USA, 12345'', storeName=''Local Jewelry'', storeAddress=''456 Pine Ave, Anytown, USA, 67890'', salesRepName=''John Doe''}'
+);
+
+SELECT * FROM public.salesorders_read
+ORDER BY order_id ASC LIMIT 100
+
+DROP PROCEDURE public.process_sales_order(INT, TEXT);
