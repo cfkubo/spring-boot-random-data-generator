@@ -98,14 +98,7 @@ started 2 plugins.
    ```
 ## Usage
 
-The application will generate random sales orders and send them to RabbitMQ. The generated orders will include the following fields:
-- Product
-- Price
-- Quantity
-- Ship To
-- Payment Method (cash, check, credit, debit)
-
-The application also logs the details of each generated order.
+The application will generate random sales orders and send them to RabbitMQ.  sThe application also logs the details of each generated order.
 
 ## Dependencies
 
