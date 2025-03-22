@@ -20,9 +20,8 @@ random-data-generator
 │   │   │               ├── service
 │   │   │               │   └── SalesOrderService.java
 │   │   │               ├── util
-│   │   │               │   └── RandomDataGenerator.java
-│   │   │               └── logging
-│   │   │                   └── LoggingService.java
+│   │   │                   └── RandomDataGenerator.java
+│   │   │               
 │   │   └── resources
 │   │       └── application.properties
 ├── pom.xml
@@ -103,7 +102,7 @@ The application will generate random sales orders and send them to RabbitMQ.  sT
 This project uses the following dependencies:
 - Spring Boot
 - RabbitMQ
-- Logging frameworks
+
 
 ![RabbitMQ Screenshot](static/rabbitmq.png)
 
