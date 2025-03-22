@@ -1,0 +1,34 @@
+# Reconfigures the default docker-compose.yml to replace Kafka/Zookeeper by RabbitMQ
+# Usage: docker-compose -f ./docker-compose.yml -f ./docker-compose-rabbitmq.yml up
+services:
+
+  rabbitmq:
+    image: rabbitmq:3.8-management
+    container_name: dataflow-rabbitmq
+    environment:
+      LANG: en_US.utf8
+      LC_ALL: en_US.utf8
+      JDK_JAVA_OPTIONS: '-Dfile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8'
+    expose:
+      - '5672'
+      - '15672'
+
+  dataflow-server:
+    environment:
+      - SPRING_CLOUD_DATAFLOW_APPLICATIONPROPERTIES_STREAM_SPRING_RABBITMQ_HOST=rabbitmq
+    depends_on:
+      - rabbitmq
+
+  skipper-server:
+    environment:
+      - SPRING_CLOUD_DATAFLOW_APPLICATIONPROPERTIES_STREAM_SPRING_RABBITMQ_HOST=rabbitmq
+    depends_on:
+      - rabbitmq
+
+  app-import-stream:
+    command: >
+      /bin/sh -c "
+        ./wait-for-it.sh -t 360 dataflow-server:9393;
+        wget -qO- '${DATAFLOW_URI:-http://dataflow-server:9393}/apps' --no-check-certificate --post-data='uri=${STREAM_APPS_URI:-https://dataflow.spring.io/rabbitmq-maven-latest&force=true}';
+        wget -qO- '${DATAFLOW_URI:-http://dataflow-server:9393}/apps/sink/dataflow-tasklauncher/${DATAFLOW_VERSION:-2.11.3-SNAPSHOT}' --no-check-certificate --post-data='uri=maven://org.springframework.cloud:spring-cloud-dataflow-tasklauncher-sink-rabbit:${DATAFLOW_VERSION:-2.11.3-SNAPSHOT}';
+        echo 'Stream apps imported'"
