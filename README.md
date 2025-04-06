@@ -67,8 +67,8 @@ started 2 plugins.
 
 1. **Clone the repository:**
    ```
-   git clone <repository-url>
-   cd random-data-generator
+   git clone https://github.com/cfkubo/spring-boot-random-data-generator
+   cd spring-boot-random-data-generator
    ```
 
 2. **Build the project:**
