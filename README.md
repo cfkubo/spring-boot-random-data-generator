@@ -43,6 +43,7 @@ docker run -d --hostname my-rabbit ---name rabbitmq --network rmq-network  -p 55
 #### Enable RabbitMQ Streams Plugin
 ```
 docker exec rabbitmq rabbitmq-plugins enable rabbitmq_stream 
+docker exec rabbitmq rabbitmq-plugins enable rabbitmq_stream_management
 ```
 #### sample output
 ```
